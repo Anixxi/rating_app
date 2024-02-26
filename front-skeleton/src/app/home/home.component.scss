@@ -1,44 +1,36 @@
-:host {
+.home-page {
   display: flex;
-  align-content: center;
+  justify-content: space-around;
   align-items: center;
-  margin: 25px;
-  flex-direction: column;
+  margin-top: 50px;
 
-  .title {
-    font-family: Caveat, sans-serif;
-    font-size: 4.5em;
-    font-weight: 700;
-    margin: 30px 0;
-  }
-
-  .welcome {
+  .category {
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    padding: 20px;
+    width: 30%;
     text-align: center;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    font-size: x-large;
-  }
+    cursor: pointer;
+    transition: transform 0.3s;
 
-  .card {
-    margin-top: 50px;
-    margin-left: 50px;
-    border: none;
-    display: flex;
-    align-items: center;
-
-    img {
-      height: 64%;
-      width: 68%;
-      margin-left: 20px;
+    &:hover {
+      transform: scale(1.05);
     }
 
-    .card-text {
-      font-family: "Dancing Script", sans-serif;
-      font-size: x-large;
-      margin-top: 0;
-      line-height: 1.7;
-      max-width: 400px;
-      margin-left: 15px;
+    img {
+      width: 100px;
+      height: 100px;
+    }
+
+    h2 {
+      font-size: 2em;
+      margin-top: 10px;
+      margin-bottom: 5px;
+    }
+
+    p {
+      font-size: 1.2em;
+      margin: 0;
     }
   }
 }

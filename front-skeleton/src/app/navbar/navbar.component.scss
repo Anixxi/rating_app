@@ -1,16 +1,17 @@
-@use "theme";
-
 nav {
   height: 80px;
-  background: linear-gradient(to right, theme.$common-purple, theme.$common-red);
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
 
   div {
-    height: 100%;
     display: flex;
     align-items: center;
 
     img {
-      margin-left: 20px;
       height: 60px;
       transition: 0.3s;
 
@@ -19,22 +20,22 @@ nav {
       }
     }
   }
-}
 
-mat-nav-list {
-  margin-left: 50px;
-  display: flex;
-  flex-direction: row;
-  width: 250px;
+  .nav-options {
+    display: flex;
+    align-items: center;
+    margin: 0 auto; // Centrer horizontalement les éléments
 
-  span,
-  a {
-    font-size: large;
-    color: theme.$white;
-    transition: 0.3s;
+    a {
+      font-size: large;
+      text-decoration: none;
+      transition: 0.3s;
+      color: #fff;
+      margin: 0 10px; // Ajuster l'espace entre les éléments
 
-    &:hover {
-      transform: scale(1.2);
+      &:hover {
+        transform: scale(1.2);
+      }
     }
   }
 }
