@@ -7,35 +7,40 @@ nav {
   justify-content: space-between;
   padding: 0 20px;
 
-  div {
+  .logo-container {
     display: flex;
     align-items: center;
+    height: 100%; // Ajustez la hauteur de votre conteneur de logo
+    margin-right: 20px; // Ajoutez de la marge à droite pour l'espacement
+  }
 
-    img {
-      height: 60px;
-      transition: 0.3s;
+  .logo {
+    height: 100px; // Ajustez la hauteur de votre logo
+    transition: 0.3s;
 
-      &:hover {
-        transform: scale(1.1);
-      }
+    &:hover {
+      transform: scale(1.1);
     }
   }
 
   .nav-options {
     display: flex;
     align-items: center;
-    margin: 0 auto; // Centrer horizontalement les éléments
+  }
 
-    a {
-      font-size: large;
-      text-decoration: none;
-      transition: 0.3s;
-      color: #fff;
-      margin: 0 10px; // Ajuster l'espace entre les éléments
+  .connexion {
+    margin-right: 20px; // Marge à droite pour l'espacement
+  }
 
-      &:hover {
-        transform: scale(1.2);
-      }
+  a {
+    font-size: large;
+    text-decoration: none;
+    transition: 0.3s;
+    color: #fff;
+    margin: 0 10px;
+
+    &:hover {
+      transform: scale(1.2);
     }
   }
 }
