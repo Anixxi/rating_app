@@ -1,0 +1,32 @@
+<div class="container">
+  <div class="title">Nos Catégories</div>
+
+  <div class="categories-grid">
+    <div class="category" *ngFor="let category of categories">
+      <h2>{{ category.name }}</h2>
+      <ul>
+        <li *ngFor="let item of category.items">
+          <a [routerLink]="['/', category.route, item.id]">{{ item.name }}</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="title">Contenu des Catégories</div>
+
+  <div class="category-content">
+    <!-- Afficher le contenu des catégories ici -->
+    <div *ngIf="selectedCategory === 'film'">
+      <!-- Afficher le contenu pour la catégorie "film" -->
+      <!-- Utilisez un composant dédié ou du contenu statique ici -->
+    </div>
+    <div *ngIf="selectedCategory === 'restaurant'">
+      <!-- Afficher le contenu pour la catégorie "restaurant" -->
+      <!-- Utilisez un composant dédié ou du contenu statique ici -->
+    </div>
+    <div *ngIf="selectedCategory === 'lieu'">
+      <!-- Afficher le contenu pour la catégorie "lieu" -->
+      <!-- Utilisez un composant dédié ou du contenu statique ici -->
+    </div>
+  </div>
+</div>
