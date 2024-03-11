@@ -1,69 +1,11 @@
 .home-page {
-  padding-top: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.test{
-  background-image: url('/assets/atm-background.png');
-  background-size: cover;
-  background-position: center;
-  padding: 10%;
-  width: 100%;
-}
-.search-section {
-  width : 40%;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.search-section h2 {
-  margin-bottom: 10px;
-  font-size: 1.5em;
-  text-align: center;
-  color : #ffffff;
-}
-
-.search-bar {
-  background-color: #ffffff;
-  border-radius: 10px;
-  display: flex;
-  align-items: center;
-  padding: 10px;
-
-  input {
-    flex: 1;
-    padding: 10px;
-    margin-right: 10px;
-  }
-
-  button {
-    padding: 10px 20px;
-    border-radius: 10px;
-    background-color: #333;
-    color: #fff;
-    border: none;
-    cursor: pointer;
-    transition: background-color 0.3s;
-  }
-
-  button:hover {
-    background-color: #555;
-  }
-}
-
-.categories-section {
-  width: 80%;
-  margin-top: 3%;
-}
-
-.categories {
   display: flex;
   justify-content: space-around;
+  align-items: center;
+  margin-top: 50px;
 
   .category {
-    background-color: #f9f9f9; // Couleur de fond des catégories
+    background-color: #f0f0f0;
     border-radius: 10px;
     padding: 20px;
     width: 30%;
@@ -75,6 +17,11 @@
       transform: scale(1.05);
     }
 
+    img {
+      width: 100px;
+      height: 100px;
+    }
+
     h2 {
       font-size: 2em;
       margin-top: 10px;
@@ -84,12 +31,6 @@
     p {
       font-size: 1.2em;
       margin: 0;
-    }
-
-    img {
-      border-radius: 10px; // Bords arrondis pour l'image
-      margin-top: 20px; // Marge supplémentaire sous le texte
-      max-width: 100%;
     }
   }
 }

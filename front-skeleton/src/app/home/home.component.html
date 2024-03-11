@@ -1,33 +1,14 @@
 <div class="home-page">
-  <!-- Partie Recherche -->
-  <div class="test">
-  <div class="search-section">
-    <h2>Lisez des avis. Publiez des avis. </h2>
-    <div class="search-bar">
-      <input type="text" placeholder="Rechercher...">
-      <button>Rechercher</button>
-    </div>
+  <div class="category films" (click)="navigateTo('films')">
+    <h2>Films</h2>
+    <p>Découvrez et partagez vos avis sur les films.</p>
   </div>
+  <div class="category lieux" (click)="navigateTo('lieux')">
+    <h2>Lieux</h2>
+    <p>Partagez vos expériences sur différents lieux.</p>
   </div>
-
-  <!-- Partie Catégories -->
-  <div class="categories-section">
-    <div class="categories">
-      <div class="category films" (click)="navigateTo('films')">
-        <h2>Films</h2>
-        <p>Découvrez et partagez vos avis sur les films.</p>
-        <img src="assets/film-image.png" alt="Films">
-      </div>
-      <div class="category lieux" (click)="navigateTo('lieux')">
-        <h2>Lieux</h2>
-        <p>Partagez vos expériences sur différents lieux.</p>
-        <img src="assets/lieux-image.png" alt="Lieux">
-      </div>
-      <div class="category restaurants" (click)="navigateTo('restaurants')">
-        <h2>Restaurants</h2>
-        <p>Donnez vos recommandations et critiques sur les restaurants.</p>
-        <img src="assets/restaurant-image.png" alt="Restaurants">
-      </div>
-    </div>
+  <div class="category restaurants" (click)="navigateTo('restaurants')">
+    <h2>Restaurants</h2>
+    <p>Donnez vos recommandations et critiques sur les restaurants.</p>
   </div>
 </div>
