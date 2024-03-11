@@ -1,13 +1,15 @@
 <nav>
   <div>
-    <img src="assets/atm-logo.png" routerLink="" />
+    <a routerLink="/accueil">
+      <img src="assets/atm-logo.png" class="logo" alt="Logo">
+    </a>
   </div>
   <div class="nav-options">
-    <!-- Lien vers la page des catégories -->
-    <a mat-button routerLink="/categories">Catégories</a>
+    <a mat-button routerLink="/categories">
+      <a mat-button routerLink="/categories">Catégories</a>
+    </a>
   </div>
   <div class="nav-options">
-    <!-- Lien vers la page de connexion -->
     <a mat-button routerLink="/connexion">Connexion</a>
   </div>
 </nav>
