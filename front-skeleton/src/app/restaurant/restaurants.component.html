@@ -1,0 +1,12 @@
+<div class="restaurant-list">
+  <h2>Liste des restaurants</h2>
+  <div class="restaurant-grid">
+    <div *ngFor="let restaurant of restaurants" class="restaurant-card">
+      <h3>{{ restaurant.nom }}</h3>
+      <p>{{ restaurant.adresse }}</p>
+      <p>{{ restaurant.ville }}</p>
+      <p>{{ restaurant.pays }}</p>
+      <!-- Ajoutez d'autres propriétés du restaurant à afficher -->
+    </div>
+  </div>
+</div>
