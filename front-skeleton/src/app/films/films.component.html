@@ -1,1 +1,14 @@
-<p>films works!</p>
+<div class="films-list">
+  <h2>Liste des films</h2>
+  <div class="films-grid">
+    <div *ngFor="let films of films" class="films-card">
+      <h3>{{ films.titre }}</h3>
+      <p>{{ films.realisateur }}</p>
+      <p>{{ films.genre }}</p>
+      <p>{{ films.annee }}</p>
+      <p>{{ films.duree }}</p>
+      <p>{{ films.notes }}</p>
+    </div>
+  </div>
+</div>
+

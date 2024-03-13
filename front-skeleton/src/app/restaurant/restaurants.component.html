@@ -3,6 +3,7 @@
   <div class="restaurant-grid">
     <div *ngFor="let restaurant of restaurants" class="restaurant-card">
       <h3>{{ restaurant.nom }}</h3>
+      <img src="{{ restaurant.image }}" alt="{{ restaurant.nom }}" class="restaurant-image">
       <p>{{ restaurant.adresse }}</p>
       <p>{{ restaurant.ville }}</p>
       <p>{{ restaurant.pays }}</p>

@@ -16,6 +16,8 @@ import { MajorsComponent } from "majors/majors.component"
 import { MajorStudentsComponent } from "majors/major-students/major-students.component"
 import { HttpClientModule } from "@angular/common/http"
 import { RestaurantsComponent } from "./restaurant/restaurants.component";
+import { LieuxComponent } from "./lieux/lieux.component";
+import {FilmsComponent} from "./films/films.component";
 
 @NgModule({
   declarations: [
@@ -27,6 +29,8 @@ import { RestaurantsComponent } from "./restaurant/restaurants.component";
     MajorsComponent,
     MajorStudentsComponent,
     RestaurantsComponent,
+    LieuxComponent,
+    FilmsComponent,
   ],
   imports: [
     BrowserModule,

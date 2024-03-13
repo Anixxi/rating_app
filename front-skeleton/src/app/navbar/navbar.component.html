@@ -5,11 +5,16 @@
     </a>
   </div>
   <div class="nav-options">
-    <a mat-button routerLink="/categories">
-      <a mat-button routerLink="/categories">Catégories</a>
-    </a>
+    <div class="category-dropdown">
+      <a mat-button routerLink="/categories"><img src="assets/icons/categories.png" alt="Icone" class="nav-icon"></a>
+      <div class="dropdown-content">
+        <a mat-button routerLink="/films">Films</a>
+        <a mat-button routerLink="/restaurant">Restaurants</a>
+        <a mat-button routerLink="/lieux">Lieux</a>
+      </div>
+    </div>
   </div>
   <div class="nav-options">
-    <a mat-button routerLink="/connexion">Connexion</a>
+    <a mat-button routerLink="/connexion"><img src="assets/icons/connexion.png" alt="Connexion" class="connexion-icon"></a>
   </div>
 </nav>

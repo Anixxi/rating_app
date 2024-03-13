@@ -1,1 +1,14 @@
-<p>lieux works!</p>
+<div class="lieux-list">
+  <h2>Liste des lieux</h2>
+  <div class="lieux-grid">
+    <div *ngFor="let lieux of lieux" class="lieux-card">
+      <h3>{{ lieux.nom }}</h3>
+      <p>{{ lieux.adresse }}</p>
+      <p>{{ lieux.ville }}</p>
+      <p>{{ lieux.pays }}</p>
+      <p>{{ lieux.description }}</p>
+      <p>{{ lieux.notes }}</p>
+    </div>
+  </div>
+</div>
+

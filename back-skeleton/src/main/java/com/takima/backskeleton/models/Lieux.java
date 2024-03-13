@@ -5,18 +5,20 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 
 @Entity
-@Table(name = "restaurant")
+@Table(name = "lieux")
 @NoArgsConstructor
 @Getter
-public class Restaurant {
+public class Lieux {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
     private String nom;
-    private String adresse; // Modifier le nom de la propriété
+    private String adresse;
     private String ville;
     private String pays;
+    private String notes;
+    private String description;
     private String image;
 
     // Getters and setters

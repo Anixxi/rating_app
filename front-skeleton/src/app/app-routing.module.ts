@@ -1,7 +1,7 @@
 import { NgModule } from "@angular/core";
 import { RouterModule, Routes } from "@angular/router";
-import { HomeComponent } from "./home/home.component"; // Assurez-vous d'importer correctement le composant Home
-import { RestaurantsComponent } from "./restaurant/restaurants.component"; // Assurez-vous d'importer correctement le composant Restaurants
+import { HomeComponent } from "./home/home.component";
+import { RestaurantsComponent } from "./restaurant/restaurants.component";
 import { LieuxComponent } from "./lieux/lieux.component";
 import { FilmsComponent } from "./films/films.component";
 

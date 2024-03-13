@@ -1,0 +1,35 @@
+.lieux-list {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.lieux-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.lieux-card {
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  padding: 20px;
+  width: calc(33.33% - 20px); /* 33.33% width with some spacing between */
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  transition: transform 0.3s;
+}
+
+.lieux-card:hover {
+  transform: scale(1.05);
+}
+
+.lieux-card h3 {
+  font-size: 1.5em;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.lieux-card p {
+  font-size: 1.2em;
+  margin: 0;
+}
