@@ -1,4 +1,4 @@
-INSERT INTO restaurant (nom, adresse, ville, pays, image) VALUES ('Restaurant A', '123 Rue de la Paix', 'Paris', 'France', '/Users/thry/IdeaProjects/rating_app/front-skeleton/src/assets/mcdo.jpeg');
+INSERT INTO restaurant (nom, adresse, ville, pays, image) VALUES ('Restaurant A', '123 Rue de la Paix', 'Paris', 'France', 'assets/db/mcdo.jpeg');
 INSERT INTO restaurant (nom, adresse, ville, pays, image) VALUES ('Restaurant B', '456 Main Street', 'New York', 'USA', '');
 INSERT INTO restaurant (nom, adresse, ville, pays, image) VALUES ('Restaurant C', '789 Avenue des Champs-Élysées', 'Paris', 'France', 'images/restaurant_c.jpg');
 INSERT INTO restaurant (nom, adresse, ville, pays, image) VALUES ('Restaurant D', '10 Downing Street', 'London', 'UK', 'images/restaurant_d.jpg');

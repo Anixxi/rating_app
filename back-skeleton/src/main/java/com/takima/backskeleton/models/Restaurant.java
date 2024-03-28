@@ -14,7 +14,7 @@ public class Restaurant {
     private Long id;
 
     private String nom;
-    private String adresse; // Modifier le nom de la propriété
+    private String adresse;
     private String ville;
     private String pays;
     private String image;
